@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nilesh Patil | Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/> 
+
+    <!-- Internal CSS -->
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9; /* Light gray background */
+        }
+
+        header {
+            background: #000; /* Black */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid #fff; /* White border */
+        }
+
+        header h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            padding: 20px;
+            background: #fff; /* White */
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #000; /* Black */
+            margin-bottom: 15px;
+            font-size: 2em;
+            font-style: italic;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+        }
+
+        #skills ul, #hobbies ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #skills li, #hobbies li {
+            background: #e0e0e0; /* Light gray */
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .progress-bar {
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            height: 25px;
+            margin-top: 5px;
+        }
+
+        .progress {
+            height: 100%;
+            line-height: 25px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .project {
+            background: #fff; /* White */
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #000; /* Black */
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        footer {
+            background: #000; /* Black */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            header p {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <img src="nil.jpg" alt="Profile Picture"> <!-- Placeholder for profile picture -->
+            <h1>Nilesh Patil</h1>
+            <p>Frontend Web Developer | Tech Enthusiast</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Nilesh, a passionate web developer with a knack for creating clean, user-friendly websites. My experience includes developing projects such as the Number Guessing Game, Online MCQ Examination Game, and more. I possess strong skills in problem-solving and logic building, and I am proficient in languages such as C, C++, HTML, CSS, SQL, Python, and Java.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%; background-color: #4caf50;">90%</div>
+                    </div>
+                </li>
+                <li>CSS
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%; background-color: #2196f3;">85%</div>
+                    </div>
+                </li>
+                <li>JavaScript
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%; background-color: #f44336;">75%</div>
+                    </div>
+                </li>
+                <li>Python
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%; background-color: #ff9800;">80%</div>
+                    </div>
+                </li>
+                <li>C
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%; background-color: #9c27b0;">85%</div>
+                    </div>
+                </li>
+                <li>C++
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%; background-color: #3f51b5;">75%</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <h3>URL Shortener</h3>
+                <p>A project that shortens long URLs into shorter, shareable links.</p>
+                <a href="https://github.com/Tnp1007/URL-Shortener">See Project</a>
+            </div>
+            <div class="project">
+                <h3>Alarm Clock with GUI</h3>
+                <p>A desktop-based application to set alarms using a graphical interface.</p>
+                <a href="https://github.com/Tnp1007/Alarm-Clock-with-GUI">See Project</a>
+            </div>
+            <div class="project">
+                <h3>Create The Reasturant Website</h3>
+                <p>This project involved designing and building a website for a restaurant. </p>
+                <a href="https://github.com/Tnp1007/Restaurant-Website-">See Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <div class="container">
+            <h2>Hobbies & Interests</h2>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Logic Building</li>
+                <li>Learning new technologies</li>
+                <li>Exploring web animation techniques</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: <a href="mailto:nilpatil2003@gmail.com">nilpatil2003@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: <a href="tel:+919403432895">+91 9403432895</a></p>
+            
+            <div class="social-links">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Tnp1007"><i class="fa-brands fa-github"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/nilesh-s-patil-042694229/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Nilesh Patil | Web Developer</p>
+    </footer>
+
+    <!-- Internal JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Example interaction for future enhancements
+            const projects = document.querySelectorAll('.project h3');
+            projects.forEach(project => {
+                project.addEventListener('click', function () {
+                    alert('You clicked on: ' + this.textContent);
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
